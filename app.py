@@ -4,6 +4,7 @@ import joblib
 import numpy as np
 #create an instance of Flask
 app = Flask(__name__)
+
 @app.route('/')
 def home():
     return render_template('home.html')
